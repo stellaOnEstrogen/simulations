@@ -4,8 +4,28 @@ A collection of simulations made in C.
 
 ## Table of Contents
 
+- [Simulations](#simulations)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Simulations
+
+<details>
+<summary> Langton's Ant </summary>
+
+This is an implementation of Langton's Ant in C. Langton's Ant is a two-dimensional Turing machine with a very simple set of rules but complex emergent behavior. The ant moves according to the rules below:
+
+1. At a white square, turn 90° right, flip the color of the square, move forward one unit.
+
+2. At a black square, turn 90° left, flip the color of the square, move forward one unit.
+
+This simulation uses the following characters to represent the ant and the grid:
+
+- `.` represents a white square.
+- `#` represents a black square.
+- `A` represents the ant.
+
+</details>
 
 ## Contributing
 
